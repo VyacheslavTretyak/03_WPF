@@ -51,6 +51,11 @@
 					</UniformGrid>
 				</ItemsPanelTemplate>
 			</ListView.ItemsPanel>
+			<ListView.ItemContainerStyle>
+				<Style TargetType="ListViewItem">
+					<Setter Property="HorizontalContentAlignment" Value="Center"/>
+				</Style>
+			</ListView.ItemContainerStyle>
 		</ListView>
 	</Grid>
 </Window>
